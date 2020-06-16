@@ -9,7 +9,7 @@
         "bookworm"
       ],
       "frontend": {
-        "entrypoint": "src/bookworm_assets/public/index.js",
+        "entrypoint": "src/bookworm_assets/public/index.jsx",
         "output": "canisters/bookworm_assets/assets"
       },
       "source": [

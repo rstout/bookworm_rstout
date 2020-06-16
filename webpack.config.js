@@ -45,6 +45,11 @@ function generateWebpackConfigForCanister(name, info) {
       filename: "[name].js",
       path: path.join(inputRoot, info.frontend.output),
     },
+    module: {
+	rules: [
+	    { test: /\.(js|ts)x?$/, loader: "ts-loader" }
+	]
+    },
     plugins: [
     ],
   };
